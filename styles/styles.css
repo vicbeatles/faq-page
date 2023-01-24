@@ -1,0 +1,116 @@
+body {
+
+display: flex;
+background: linear-gradient(hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+background-repeat: no-repeat;
+background-size: cover;
+justify-content: center;
+height: 100vh;
+
+}
+
+.main-card {
+
+    display: flex;
+    background: #fff;
+    width: 65%;
+    height: 67%;
+    margin: 15vh 10vw;
+    border-radius: 25px;
+    box-shadow: 0px 50px 25px -30px rgba(0, 0, 0, 0.303);
+    
+}
+
+.main-image {
+
+    width: 50%;
+    height: 100%;
+    background-image: url(/images/bg-desktop.svg);
+    background-size: 220%;
+    background-position-x: -500px;
+    background-position-y: -270px;
+    background-repeat:no-repeat;
+    
+}
+
+#woman {
+
+    overflow: hidden;
+    height: 100%;
+}
+
+#woman-image {
+    
+    width: 120%;
+    position: relative;
+    top: 8%;
+    left: -100px;
+}
+
+#woman-box {
+    
+    width: 50%;
+    position: relative;
+    top: -330px;
+    left: -120px;
+    filter:drop-shadow(0px 35px 25px rgba(0, 0, 0, 0.399))
+}
+
+.main-accordion {
+
+    width: 50%;
+    padding: 60px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.title {
+    font-weight: 700;
+}
+
+.questions {
+
+    font-weight: 400;
+    color: hsl(240, 6%, 50%);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+
+}
+
+.arrows {
+
+    width: 10px;
+    height: 10px;
+    border-left: 3px solid orange;
+    border-top: 3px solid orange;
+    transform: rotate(225deg);
+    position: relative;
+    
+}
+
+
+
+.q_contents {
+
+    display: none;
+    padding-top: 10px;
+
+}
+
+.arrows_on {
+
+    transform: rotate(45deg);
+    
+}
+
+
+
+.q_contents_on {
+
+    display: block;
+
+}
